@@ -33,4 +33,11 @@ Future Tech ブログ
     * 軽量だが読み込めるライブラリが非常に制限されている
     * 起動に20秒
     * 参照: https://dev.classmethod.jp/cloud/aws/20190129-aws-glue-python-shell/
-  
+
+## 開発について
+
+* AWS Consoles にGlueのジョブエディタがついており簡易に作成ができる
+* また、GUIから入力／出力するカタログ内テーブルを選んで、テンプレートからスクリプト自動生成もできる
+
+* ジョブ実行も、AWS Consolesから可能。ログはCloudWatchに出力。
+
