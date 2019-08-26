@@ -19,7 +19,7 @@ module.exports = (filename, records) => {
     const tmpfilenm = `${filename}_tmp`
     
     const tmpfd = fs.openSync(tmpfilenm, 'w');
-    for (let i=0; i<records; i++) {
+    for (let i=0; i<records;) {
         values = shuffle_easy(values)
 
         for (let j=0; j<values.length && j<records; j++, i++) {
